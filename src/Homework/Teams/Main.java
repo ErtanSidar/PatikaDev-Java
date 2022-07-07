@@ -16,7 +16,7 @@ public class Main
         List<String> teams = new ArrayList<>();
         
         for (int i=0; i<N; i++) {
-            System.out.println("Enter team name: ");
+            System.out.print("Enter team name: ");
             String team = input.next();
             teams.add(team);
         }
